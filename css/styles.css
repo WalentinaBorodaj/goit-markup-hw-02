@@ -13,6 +13,8 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.14;
   color: var(--main-title-color);
 }
 .list {
@@ -26,57 +28,37 @@ body {
 
 .logo {
   font-family: Raleway;
-
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #000000;
 }
-.logo:hover,
-.logo:focus {
-  color: var(--accent-color);
-}
+
 .logo-text {
   color: var(--accent-color);
 }
 .site-nav-link {
-  font-family: Roboto;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--second-title-color);
 }
-.site-nav-link:hover,
-.site-nav-link:focus {
+.current {
   color: var(--accent-color);
 }
 
 .link-contacts {
-  color: var(--main-title-color);
-  font-family: Roboto;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
   letter-spacing: 0.02em;
+  color: var(--main-title-color);
 }
 
-.link-contacts:hover,
-.link-contacts:focus {
-  color: var(--accent-color);
-}
 /* ----------HERO---------------------- */
 .box {
   background-color: var(--color-header);
   color: var(--text-hero);
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
 }
 .box-title {
-  font-family: Roboto;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -85,7 +67,6 @@ body {
   color: var(--text-hero);
 }
 .box-title-btn {
-  font-family: Roboto;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
@@ -98,25 +79,16 @@ body {
 }
 /* --------------ABOUT---------------- */
 .about-title {
-  font-family: Roboto;
   font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--second-title-color);
 }
 .about-text {
-  font-family: Roboto;
-  font-weight: normal;
-  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--main-title-color);
 }
 /* --------WORKS--------------------- */
 .works-title {
-  font-family: Roboto;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
@@ -126,7 +98,6 @@ body {
 }
 /* ---------MASTERS----------------- */
 .masters-title {
-  font-family: Roboto;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
@@ -135,7 +106,6 @@ body {
   color: var(--second-title-color);
 }
 .masters-item-title {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -144,19 +114,14 @@ body {
   color: var(--second-title-color);
 }
 .masters-item-text {
-  font-family: Roboto;
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--main-title-color);
 }
 /* --------FOOTER--------------- */
 .footer {
   background-color: var(--color-header);
-  width: 1600px;
-  height: 252px;
 }
 
 .footer-logo {
@@ -167,10 +132,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--text-hero);
 }
-.footer-logo:hover,
-.footer-logo:focus {
-  color: var(--accent-color);
-}
+
 .footer-logo-text {
   font-family: Raleway;
   font-weight: bold;
@@ -180,34 +142,33 @@ body {
   color: var(--accent-color);
 }
 .footer-link {
-  font-family: Roboto;
-  font-weight: normal;
-  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-hero);
 }
 .footer-link-contacts {
-  font-family: Roboto;
-  font-weight: normal;
-  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-link:hover,
-.footer-link:focus {
-  color: var(--accent-color);
-}
+.footer-link:focus,
 .footer-link-contacts:hover,
-.footer-link-contacts:focus {
+.footer-link-contacts:focus,
+.footer-logo:hover,
+.footer-logo:focus,
+.link-contacts:hover,
+.link-contacts:focus,
+.site-nav-link:hover,
+.site-nav-link:focus,
+.logo:hover,
+.logo:focus {
   color: var(--accent-color);
 }
+
 /* ------ PORTFOLIO СТРАНИЦА 2----- */
 .portfolio-title-btn {
   cursor: pointer;
-  font-family: Roboto;
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -224,18 +185,14 @@ body {
 }
 
 /* -------work-examples ---------*/
-.work-examples-title {
-  font-family: Roboto;
-
+.portfolio-examples-title {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--second-title-color);
 }
-.work-examples-text {
-  font-family: Roboto;
-  font-weight: normal;
+.portfolio-examples-text {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;

@@ -17,7 +17,15 @@ body {
   line-height: 1.14;
   color: var(--main-title-color);
 }
+h1,h2,h3,p,ul{
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
 .list {
+  padding: 0;
+  margin: 0;
+
   list-style: none;
 }
 .link {
@@ -38,7 +46,8 @@ body {
 .logo-text {
   color: var(--accent-color);
 }
-.site-nav-link {
+.main-nav-link {
+  display: inline-block;
   font-weight: 500;
   letter-spacing: 0.02em;
   color: var(--second-title-color);
@@ -47,45 +56,77 @@ body {
   color: var(--accent-color);
 }
 
+
 .link-contacts {
+  display: inline-block;
   font-weight: 500;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid tomato;
 }
 
 /* ----------HERO---------------------- */
 .box {
   background-color: var(--color-header);
   color: var(--text-hero);
+  text-align: center;
 }
 .box-title {
+  margin-top: 0;
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
+  
   letter-spacing: 0.06em;
   color: var(--text-hero);
 }
 .box-title-btn {
+  display: inline-block;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
   align-items: center;
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 0.06em;
   color: var(--text-hero);
   background-color: var(--accent-color);
   cursor: pointer;
+  border-radius: 4px;
+  min-width: 200px;
+  height: 50px;
+  padding: 10px 32px;
+  border:none;
 }
 /* --------------ABOUT---------------- */
+.section{
+  padding-top:94px;
+}
+.features-section{
+  padding-bottom: 94px;
+}
 .about-title {
   font-weight: bold;
   letter-spacing: 0.03em;
   color: var(--second-title-color);
+  margin-bottom: 10px;
+}
+.features{
+  margin-top: 0;
 }
 .about-text {
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+.desc{
+  margin-bottom: 0;
 }
 /* --------WORKS--------------------- */
 .works-title {
@@ -95,6 +136,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-title-color);
+  margin-bottom: 50px;
 }
 /* ---------MASTERS----------------- */
 .masters-title {
@@ -104,6 +146,8 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-title-color);
+  margin-bottom: 50px;
+  margin-top: 0;
 }
 .masters-item-title {
   font-weight: 500;
@@ -112,6 +156,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-title-color);
+  margin-bottom: 10px;
 }
 .masters-item-text {
   font-size: 16px;
@@ -122,6 +167,7 @@ body {
 /* --------FOOTER--------------- */
 .footer {
   background-color: var(--color-header);
+ 
 }
 
 .footer-logo {

@@ -52,6 +52,14 @@ h1,h2,h3,p,ul{
   letter-spacing: 0.02em;
   color: var(--second-title-color);
 }
+.main-nav-link:active{
+  color: var(--accent-color);
+
+}
+.main-nav-link:hover,
+.main-nav-link:focus{
+  color: var(--accent-color);
+}
 .current {
   color: var(--accent-color);
 }
@@ -84,7 +92,7 @@ h1,h2,h3,p,ul{
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  
+  text-transform: uppercase;
   letter-spacing: 0.06em;
   color: var(--text-hero);
 }
@@ -117,6 +125,7 @@ h1,h2,h3,p,ul{
   letter-spacing: 0.03em;
   color: var(--second-title-color);
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 .features{
   margin-top: 0;
@@ -139,6 +148,9 @@ h1,h2,h3,p,ul{
   margin-bottom: 50px;
 }
 /* ---------MASTERS----------------- */
+.masters{
+  background-color: #F5F4FA;
+}
 .masters-title {
   font-weight: bold;
   font-size: 36px;
@@ -191,11 +203,21 @@ h1,h2,h3,p,ul{
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-hero);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+
 }
 .footer-link-contacts {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+
 }
 .footer-link:hover,
 .footer-link:focus,
@@ -205,8 +227,6 @@ h1,h2,h3,p,ul{
 .footer-logo:focus,
 .link-contacts:hover,
 .link-contacts:focus,
-.site-nav-link:hover,
-.site-nav-link:focus,
 .logo:hover,
 .logo:focus {
   color: var(--accent-color);
@@ -218,7 +238,7 @@ h1,h2,h3,p,ul{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-
+  border: none;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-title-color);
@@ -226,6 +246,10 @@ h1,h2,h3,p,ul{
 }
 .portfolio-title-btn:hover,
 .portfolio-title-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--text-hero);
+}
+.acccent{
   background-color: var(--accent-color);
   color: var(--text-hero);
 }
